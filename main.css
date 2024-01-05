@@ -1,0 +1,57 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #62be1b;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.main_full {
+  width: 100%;
+  height: 50%;
+}
+
+.ppt_full {
+  width: 100%;
+  height: 100%;
+}
+
+.video-display {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  border: 3px solid blue;
+  display: none;
+}
+
+.video-display2 {
+  position: absolute;
+  left: 230px;
+  top: 80px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  border: 3px solid #00ff95;
+  display: none;
+}
+
+.video-display-test {
+  position: absolute;
+  left: 500px;
+  top: 80px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  border: 3px solid red;
+  display: none;
+}
+
+/* @media screen and (min-width: 832px) {
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+} */
